@@ -75,5 +75,27 @@ body {
       font-size: 0.6vw;
       padding: 10px 0;
     }
+    .card{
+      border: 1px solid var(--foreground);
+      padding: 20px;
+      border-radius: 20px;
+      margin: 3vw 0;
+      width: 400px;
+      img {
+        max-width: 400px;
+        max-height: 200px;
+      }
+      .card-title{
+        font-size: 0.9vw;
+        font-weight: 700;
+        max-width: 400px;
+      }
+      .card-content{
+        font-size: 0.5vw;
+        color: var(--foreground);
+        text-align: justify;
+        max-width: 400px;
+      }
+    }
   }
 }
